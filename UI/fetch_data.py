@@ -8,8 +8,8 @@ import json
 
 
 class Trending():
-    #api_key = "AIzaSyCnXp_Hyf27VWDlhQfyW0axonuKfmX-6IA"
-    api_key = "AIzaSyC0kKvDqa-Uw_h5ji7Yizp2FurtDtiphjc"
+    #api_key = "***********************************"
+    api_key = "********************************"
     
     allIds = None
 
