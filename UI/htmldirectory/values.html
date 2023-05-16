@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="skyblue">
+    <form action ="/submiturl" method = "post">
+        <h1>Here are the predictions for the given video</h1><br><br>
+        <b>Title of the given video:</b> {{data["Channel Title"]}}<br><br>
+        <b>The video will trend for: </b>{{data["The video will trend for"]}}<br><br>
+        <b>Current number of views: </b>{{data["Current number of views"]}}<br><br>
+        <b>Predicted number of views by the time video gets out of trending list: </b>{{data["Predicted views by the time video gets out of trending list"]}}<br><br>
+        <b>Current number of likes: </b>{{data["Current number of likes"]}}<br><br>
+        <b>Predicted number of Likes by the time video gets out of trending list: </b>{{data["Predicted Likes by the time video gets out of trending list"]}}<br><br>
+        <b>Current number of comment count: </b>{{data["Current number of comment count"]}}<br><br>
+        <b>Predicted Comment count by the time video gets out of trending list: </b>{{data["Predicted Comment count by the time video gets out of trending list"]}}<br><br>
+    </form>
+</body>
+</html>
